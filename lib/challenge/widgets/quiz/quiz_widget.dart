@@ -1,4 +1,4 @@
-import 'package:dev_quizz_nlw/challenge/widgets/awnser/awnser_widget.dart';
+import 'package:dev_quizz_nlw/challenge/widgets/answer/answer_widget.dart';
 import 'package:dev_quizz_nlw/core/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -12,15 +12,15 @@ class QuizWidget extends StatelessWidget {
         children: [
           Text(title, style: AppTextStyles.heading),
           SizedBox(height: 24),
-          AwnserWidget(title: "Kit de desenvolvimento de interface de usuário"),
-          AwnserWidget(
+          AnswerWidget(title: "Kit de desenvolvimento de interface de usuário"),
+          AnswerWidget(
             title:
                 "Possibilita a criação de aplicativos compilados nativamente",
             isSelected: true,
             isRight: true,
           ),
-          AwnserWidget(title: "Acho que é uma marca de café do Himalaia"),
-          AwnserWidget(
+          AnswerWidget(title: "Acho que é uma marca de café do Himalaia"),
+          AnswerWidget(
               title:
                   "Possibilita a criação de desktops que são muito incríveis"),
         ],

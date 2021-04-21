@@ -2,11 +2,11 @@ import 'package:dev_quizz_nlw/core/app_colors.dart';
 import 'package:dev_quizz_nlw/core/core.dart';
 import 'package:flutter/material.dart';
 
-class AwnserWidget extends StatelessWidget {
+class AnswerWidget extends StatelessWidget {
   final String title;
   final bool isRight;
   final bool isSelected;
-  const AwnserWidget(
+  const AnswerWidget(
       {Key? key,
       required this.title,
       this.isRight = false,

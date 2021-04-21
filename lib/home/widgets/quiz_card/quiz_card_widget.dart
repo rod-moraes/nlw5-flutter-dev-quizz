@@ -1,8 +1,21 @@
-import 'package:dev_quizz_nlw/core/core.dart';
-import 'package:dev_quizz_nlw/shared/widgets/progress_indicator/progress_indicator_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'package:dev_quizz_nlw/core/core.dart';
+import 'package:dev_quizz_nlw/shared/widgets/progress_indicator/progress_indicator_widget.dart';
+
 class QuizCardWidget extends StatelessWidget {
+  final String title;
+  final String image;
+  final int completted;
+  final int total;
+  const QuizCardWidget({
+    Key? key,
+    required this.image,
+    required this.title,
+    required this.completted,
+    required this.total,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,29 +29,28 @@ class QuizCardWidget extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-              height: 40, width: 40, child: Image.asset(AppImages.blocks)),
-          SizedBox(
-            height: 24,
-          ),
+              height: 40,
+              width: 40,
+              child: Image.asset("assets/images/" + image + ".png")),
           Text(
-            "Gerenciamento de Estados",
+            title,
             style: AppTextStyles.heading15,
-          ),
-          SizedBox(
-            height: 24,
           ),
           Row(
             children: [
               Expanded(
                 flex: 1,
                 child: Text(
-                  "3 de 10",
+                  (completted.toString() + " de " + total.toString()),
                   style: AppTextStyles.body11,
                 ),
               ),
-              Expanded(flex: 1, child: ProgressIndicatorWidget(value: 0.3))
+              Expanded(
+                  flex: 1,
+                  child: ProgressIndicatorWidget(value: completted / total))
             ],
           )
         ],
