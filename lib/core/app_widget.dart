@@ -1,4 +1,5 @@
 //import 'package:DevQuiz/home/home_page.dart';
+import 'package:dev_quizz_nlw/challenge/challenge_page.dart';
 import 'package:dev_quizz_nlw/home/home_page.dart';
 import 'package:flutter/material.dart';
 
