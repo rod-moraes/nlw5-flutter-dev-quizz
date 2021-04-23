@@ -8,4 +8,6 @@ class ChallengeController {
   }
 
   set currentPage(int value) => currentPageNotifier.value = value;
+
+  int correctAnswers = 0;
 }
