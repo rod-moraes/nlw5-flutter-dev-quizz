@@ -27,7 +27,6 @@ class _ChallengePageState extends State<ChallengePage> {
     pageController.addListener(() {
       controller.currentPage = pageController.page!.toInt() + 1;
     });
-    // TODO: implement initState
     super.initState();
   }
 

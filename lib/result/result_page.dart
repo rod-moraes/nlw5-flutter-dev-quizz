@@ -1,7 +1,4 @@
-import 'dart:ui' as ui;
-
 import 'package:flutter/material.dart';
-
 import 'package:dev_quizz_nlw/challenge/widgets/next_button/next_button_widget.dart';
 import 'package:dev_quizz_nlw/core/app_text_styles.dart';
 import 'package:dev_quizz_nlw/svg/trophy.dart';
@@ -44,7 +41,7 @@ class ResultPage extends StatelessWidget {
                   Text("Parabéns!", style: AppTextStyles.heading40),
                   SizedBox(height: 25),
                   Text("Você concluiu", style: AppTextStyles.body30),
-                  Text("${title}", style: AppTextStyles.bodyBold30),
+                  Text("$title", style: AppTextStyles.bodyBold30),
                   Text("com $result de $length acertos",
                       style: AppTextStyles.body30),
                 ],

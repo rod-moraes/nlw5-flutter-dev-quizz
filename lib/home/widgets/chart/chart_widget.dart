@@ -31,7 +31,6 @@ class _ChartWidgetState extends State<ChartWidget>
   @override
   void initState() {
     initAnimation();
-    // TODO: implement initState
     super.initState();
   }
 

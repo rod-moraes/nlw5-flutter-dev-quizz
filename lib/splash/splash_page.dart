@@ -1,5 +1,4 @@
 import 'package:dev_quizz_nlw/core/core.dart';
-import 'package:dev_quizz_nlw/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {

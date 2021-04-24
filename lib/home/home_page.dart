@@ -1,7 +1,6 @@
 import 'package:dev_quizz_nlw/challenge/challenge_page.dart';
 import 'package:dev_quizz_nlw/controllers/home/home_controller.dart';
 import 'package:dev_quizz_nlw/controllers/home/home_state.dart';
-import 'package:dev_quizz_nlw/core/core.dart';
 import 'package:dev_quizz_nlw/home/widgets/appbar/app_bar_widget.dart';
 import 'package:dev_quizz_nlw/home/widgets/level_button/level_button_widget.dart';
 import 'package:dev_quizz_nlw/home/widgets/quiz_card/quiz_card_widget.dart';

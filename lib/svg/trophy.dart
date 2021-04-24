@@ -38,13 +38,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.2313004);
     path_0.close();
 
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.shader = ui.Gradient.linear(
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.4282946, size.height * 0.2313004),
         Offset(size.width * 0.4282946, size.height * 0.9983695),
         [Color(0xffEBEBF5).withOpacity(1), Color(0xffF5F5FA).withOpacity(0)],
         [0, 1]);
-    canvas.drawPath(path_0, paint_0_fill);
+    canvas.drawPath(path_0, paint0Fill);
 
     Path path_1 = Path();
     path_1.moveTo(size.width * 0.5226202, size.height * 0.7643614);
@@ -68,9 +68,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_1.lineTo(size.width * 0.5226202, size.height * 0.7643614);
     path_1.close();
 
-    Paint paint_1_fill = Paint()..style = PaintingStyle.fill;
-    paint_1_fill.color = Color(0xffFCC24E).withOpacity(1.0);
-    canvas.drawPath(path_1, paint_1_fill);
+    Paint paint1Fill = Paint()..style = PaintingStyle.fill;
+    paint1Fill.color = Color(0xffFCC24E).withOpacity(1.0);
+    canvas.drawPath(path_1, paint1Fill);
 
     Path path_2 = Path();
     path_2.moveTo(size.width * 0.4930969, size.height * 0.7643614);
@@ -87,9 +87,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_2.lineTo(size.width * 0.4930969, size.height * 0.7643614);
     path_2.close();
 
-    Paint paint_2_fill = Paint()..style = PaintingStyle.fill;
-    paint_2_fill.color = Color(0xffF2A635).withOpacity(1.0);
-    canvas.drawPath(path_2, paint_2_fill);
+    Paint paint2Fill = Paint()..style = PaintingStyle.fill;
+    paint2Fill.color = Color(0xffF2A635).withOpacity(1.0);
+    canvas.drawPath(path_2, paint2Fill);
 
     Path path_3 = Path();
     path_3.moveTo(size.width * 0.4961240, size.height * 0.6438916);
@@ -126,9 +126,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.6438916);
     path_3.close();
 
-    Paint paint_3_fill = Paint()..style = PaintingStyle.fill;
-    paint_3_fill.color = Color(0xffFFE67C).withOpacity(1.0);
-    canvas.drawPath(path_3, paint_3_fill);
+    Paint paint3Fill = Paint()..style = PaintingStyle.fill;
+    paint3Fill.color = Color(0xffFFE67C).withOpacity(1.0);
+    canvas.drawPath(path_3, paint3Fill);
 
     Path path_4 = Path();
     path_4.moveTo(size.width * 0.4853643, size.height * 0.6435181);
@@ -164,9 +164,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.6435181);
     path_4.close();
 
-    Paint paint_4_fill = Paint()..style = PaintingStyle.fill;
-    paint_4_fill.color = Color(0xffFFBA30).withOpacity(1.0);
-    canvas.drawPath(path_4, paint_4_fill);
+    Paint paint4Fill = Paint()..style = PaintingStyle.fill;
+    paint4Fill.color = Color(0xffFFBA30).withOpacity(1.0);
+    canvas.drawPath(path_4, paint4Fill);
 
     Path path_5 = Path();
     path_5.moveTo(size.width * 0.5551705, size.height * 0.7960602);
@@ -190,9 +190,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_5.lineTo(size.width * 0.5551705, size.height * 0.7960602);
     path_5.close();
 
-    Paint paint_5_fill = Paint()..style = PaintingStyle.fill;
-    paint_5_fill.color = Color(0xffFCC24E).withOpacity(1.0);
-    canvas.drawPath(path_5, paint_5_fill);
+    Paint paint5Fill = Paint()..style = PaintingStyle.fill;
+    paint5Fill.color = Color(0xffFCC24E).withOpacity(1.0);
+    canvas.drawPath(path_5, paint5Fill);
 
     Path path_6 = Path();
     path_6.moveTo(size.width * 0.4824961, size.height * 0.7960602);
@@ -216,9 +216,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_6.lineTo(size.width * 0.4824961, size.height * 0.7960602);
     path_6.close();
 
-    Paint paint_6_fill = Paint()..style = PaintingStyle.fill;
-    paint_6_fill.color = Color(0xffF2A635).withOpacity(1.0);
-    canvas.drawPath(path_6, paint_6_fill);
+    Paint paint6Fill = Paint()..style = PaintingStyle.fill;
+    paint6Fill.color = Color(0xffF2A635).withOpacity(1.0);
+    canvas.drawPath(path_6, paint6Fill);
 
     Path path_7 = Path();
     path_7.moveTo(size.width * 0.6392016, size.height * 0.9294056);
@@ -242,9 +242,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_7.lineTo(size.width * 0.6392016, size.height * 0.9294056);
     path_7.close();
 
-    Paint paint_7_fill = Paint()..style = PaintingStyle.fill;
-    paint_7_fill.color = Color(0xffD3D3EB).withOpacity(1.0);
-    canvas.drawPath(path_7, paint_7_fill);
+    Paint paint7Fill = Paint()..style = PaintingStyle.fill;
+    paint7Fill.color = Color(0xffD3D3EB).withOpacity(1.0);
+    canvas.drawPath(path_7, paint7Fill);
 
     Path path_8 = Path();
     path_8.moveTo(size.width * 0.3765140, size.height * 0.9294056);
@@ -268,9 +268,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_8.lineTo(size.width * 0.3765140, size.height * 0.9294056);
     path_8.close();
 
-    Paint paint_8_fill = Paint()..style = PaintingStyle.fill;
-    paint_8_fill.color = Color(0xffC0C0D6).withOpacity(1.0);
-    canvas.drawPath(path_8, paint_8_fill);
+    Paint paint8Fill = Paint()..style = PaintingStyle.fill;
+    paint8Fill.color = Color(0xffC0C0D6).withOpacity(1.0);
+    canvas.drawPath(path_8, paint8Fill);
 
     Path path_9 = Path();
     path_9.moveTo(size.width * 0.5975969, size.height * 0.8948916);
@@ -308,13 +308,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_9.lineTo(size.width * 0.5975969, size.height * 0.8948916);
     path_9.close();
 
-    Paint paint_9_fill = Paint()..style = PaintingStyle.fill;
-    paint_9_fill.shader = ui.Gradient.linear(
+    Paint paint9Fill = Paint()..style = PaintingStyle.fill;
+    paint9Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.3946512, size.height * 0.8211606),
         Offset(size.width * 0.4568837, size.height * 0.9274096),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_9, paint_9_fill);
+    canvas.drawPath(path_9, paint9Fill);
 
     Path path_10 = Path();
     path_10.moveTo(size.width * 0.4248953, size.height * 0.8948916);
@@ -352,9 +352,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.8948916);
     path_10.close();
 
-    Paint paint_10_fill = Paint()..style = PaintingStyle.fill;
-    paint_10_fill.color = Color(0xff8257E5).withOpacity(1.0);
-    canvas.drawPath(path_10, paint_10_fill);
+    Paint paint10Fill = Paint()..style = PaintingStyle.fill;
+    paint10Fill.color = Color(0xff8257E5).withOpacity(1.0);
+    canvas.drawPath(path_10, paint10Fill);
 
     Path path_11 = Path();
     path_11.moveTo(size.width * 0.6709961, size.height * 0.9278353);
@@ -391,9 +391,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.9278353);
     path_11.close();
 
-    Paint paint_11_fill = Paint()..style = PaintingStyle.fill;
-    paint_11_fill.color = Color(0xffC0C0D6).withOpacity(1.0);
-    canvas.drawPath(path_11, paint_11_fill);
+    Paint paint11Fill = Paint()..style = PaintingStyle.fill;
+    paint11Fill.color = Color(0xffC0C0D6).withOpacity(1.0);
+    canvas.drawPath(path_11, paint11Fill);
 
     Path path_12 = Path();
     path_12.moveTo(size.width * 0.3598597, size.height * 0.9356787);
@@ -423,9 +423,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_12.lineTo(size.width * 0.3598597, size.height * 0.9356787);
     path_12.close();
 
-    Paint paint_12_fill = Paint()..style = PaintingStyle.fill;
-    paint_12_fill.color = Color(0xffAEAEC2).withOpacity(1.0);
-    canvas.drawPath(path_12, paint_12_fill);
+    Paint paint12Fill = Paint()..style = PaintingStyle.fill;
+    paint12Fill.color = Color(0xffAEAEC2).withOpacity(1.0);
+    canvas.drawPath(path_12, paint12Fill);
 
     Path path_13 = Path();
     path_13.moveTo(size.width * 0.7508682, size.height * 0.2369337);
@@ -479,9 +479,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.2369337);
     path_13.close();
 
-    Paint paint_13_fill = Paint()..style = PaintingStyle.fill;
-    paint_13_fill.color = Color(0xffFCC24E).withOpacity(1.0);
-    canvas.drawPath(path_13, paint_13_fill);
+    Paint paint13Fill = Paint()..style = PaintingStyle.fill;
+    paint13Fill.color = Color(0xffFCC24E).withOpacity(1.0);
+    canvas.drawPath(path_13, paint13Fill);
 
     Path path_14 = Path();
     path_14.moveTo(size.width * 0.3330337, size.height * 0.4749076);
@@ -535,9 +535,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.4749076);
     path_14.close();
 
-    Paint paint_14_fill = Paint()..style = PaintingStyle.fill;
-    paint_14_fill.color = Color(0xffFFE67C).withOpacity(1.0);
-    canvas.drawPath(path_14, paint_14_fill);
+    Paint paint14Fill = Paint()..style = PaintingStyle.fill;
+    paint14Fill.color = Color(0xffFFE67C).withOpacity(1.0);
+    canvas.drawPath(path_14, paint14Fill);
 
     Path path_15 = Path();
     path_15.moveTo(size.width * 0.3315194, size.height * 0.2564008);
@@ -560,9 +560,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_15.lineTo(size.width * 0.3315194, size.height * 0.2564008);
     path_15.close();
 
-    Paint paint_15_fill = Paint()..style = PaintingStyle.fill;
-    paint_15_fill.color = Color(0xffFCC24E).withOpacity(1.0);
-    canvas.drawPath(path_15, paint_15_fill);
+    Paint paint15Fill = Paint()..style = PaintingStyle.fill;
+    paint15Fill.color = Color(0xffFCC24E).withOpacity(1.0);
+    canvas.drawPath(path_15, paint15Fill);
 
     Path path_16 = Path();
     path_16.moveTo(size.width * 0.3653543, size.height * 0.4748675);
@@ -592,9 +592,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.4748675);
     path_16.close();
 
-    Paint paint_16_fill = Paint()..style = PaintingStyle.fill;
-    paint_16_fill.color = Color(0xffF2A635).withOpacity(1.0);
-    canvas.drawPath(path_16, paint_16_fill);
+    Paint paint16Fill = Paint()..style = PaintingStyle.fill;
+    paint16Fill.color = Color(0xffF2A635).withOpacity(1.0);
+    canvas.drawPath(path_16, paint16Fill);
 
     Path path_17 = Path();
     path_17.moveTo(size.width * 0.4961240, size.height * 0.5568193);
@@ -628,13 +628,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.5568193);
     path_17.close();
 
-    Paint paint_17_fill = Paint()..style = PaintingStyle.fill;
-    paint_17_fill.shader = ui.Gradient.linear(
+    Paint paint17Fill = Paint()..style = PaintingStyle.fill;
+    paint17Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.3840845, size.height * 0.3246422),
         Offset(size.width * 0.5653101, size.height * 0.4446707),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_17, paint_17_fill);
+    canvas.drawPath(path_17, paint17Fill);
 
     Path path_18 = Path();
     path_18.moveTo(size.width * 0.4128527, size.height * 0.4407309);
@@ -682,9 +682,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.4407309);
     path_18.close();
 
-    Paint paint_18_fill = Paint()..style = PaintingStyle.fill;
-    paint_18_fill.color = Color(0xff8257E5).withOpacity(1.0);
-    canvas.drawPath(path_18, paint_18_fill);
+    Paint paint18Fill = Paint()..style = PaintingStyle.fill;
+    paint18Fill.color = Color(0xff8257E5).withOpacity(1.0);
+    canvas.drawPath(path_18, paint18Fill);
 
     Path path_19 = Path();
     path_19.moveTo(size.width * 0.5351202, size.height * 0.5132048);
@@ -826,9 +826,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.5132048);
     path_19.close();
 
-    Paint paint_19_fill = Paint()..style = PaintingStyle.fill;
-    paint_19_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_19, paint_19_fill);
+    Paint paint19Fill = Paint()..style = PaintingStyle.fill;
+    paint19Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_19, paint19Fill);
 
     Path path_20 = Path();
     path_20.moveTo(size.width * 0.4729612, size.height * 0.4971606);
@@ -903,9 +903,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.4971606);
     path_20.close();
 
-    Paint paint_20_fill = Paint()..style = PaintingStyle.fill;
-    paint_20_fill.color = Color(0xffDADADA).withOpacity(1.0);
-    canvas.drawPath(path_20, paint_20_fill);
+    Paint paint20Fill = Paint()..style = PaintingStyle.fill;
+    paint20Fill.color = Color(0xffDADADA).withOpacity(1.0);
+    canvas.drawPath(path_20, paint20Fill);
 
     Path path_21 = Path();
     path_21.moveTo(size.width * 0.6937093, size.height * 0.2501253);
@@ -943,9 +943,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
     path_21.lineTo(size.width * 0.6937093, size.height * 0.2501253);
     path_21.close();
 
-    Paint paint_21_fill = Paint()..style = PaintingStyle.fill;
-    paint_21_fill.color = Color(0xffFFE67C).withOpacity(1.0);
-    canvas.drawPath(path_21, paint_21_fill);
+    Paint paint21Fill = Paint()..style = PaintingStyle.fill;
+    paint21Fill.color = Color(0xffFFE67C).withOpacity(1.0);
+    canvas.drawPath(path_21, paint21Fill);
 
     Path path_22 = Path();
     path_22.moveTo(size.width * 0.3447190, size.height * 0.2501253);
@@ -983,9 +983,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.2501253);
     path_22.close();
 
-    Paint paint_22_fill = Paint()..style = PaintingStyle.fill;
-    paint_22_fill.color = Color(0xffFFBA30).withOpacity(1.0);
-    canvas.drawPath(path_22, paint_22_fill);
+    Paint paint22Fill = Paint()..style = PaintingStyle.fill;
+    paint22Fill.color = Color(0xffFFBA30).withOpacity(1.0);
+    canvas.drawPath(path_22, paint22Fill);
 
     Path path_23 = Path();
     path_23.moveTo(size.width * 0.3008116, size.height * 0.7205141);
@@ -1075,9 +1075,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.7205141);
     path_23.close();
 
-    Paint paint_23_fill = Paint()..style = PaintingStyle.fill;
-    paint_23_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_23, paint_23_fill);
+    Paint paint23Fill = Paint()..style = PaintingStyle.fill;
+    paint23Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_23, paint23Fill);
 
     Path path_24 = Path();
     path_24.moveTo(size.width * 0.7113062, size.height * 0.6739398);
@@ -1167,9 +1167,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.6739398);
     path_24.close();
 
-    Paint paint_24_fill = Paint()..style = PaintingStyle.fill;
-    paint_24_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_24, paint_24_fill);
+    Paint paint24Fill = Paint()..style = PaintingStyle.fill;
+    paint24Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_24, paint24Fill);
 
     Path path_25 = Path();
     path_25.moveTo(size.width * 0.5370039, size.height * 0.8541044);
@@ -1205,9 +1205,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.8541044);
     path_25.close();
 
-    Paint paint_25_fill = Paint()..style = PaintingStyle.fill;
-    paint_25_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_25, paint_25_fill);
+    Paint paint25Fill = Paint()..style = PaintingStyle.fill;
+    paint25Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_25, paint25Fill);
 
     Path path_26 = Path();
     path_26.moveTo(size.width * 0.5188333, size.height * 0.8823414);
@@ -1243,9 +1243,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.8823414);
     path_26.close();
 
-    Paint paint_26_fill = Paint()..style = PaintingStyle.fill;
-    paint_26_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_26, paint_26_fill);
+    Paint paint26Fill = Paint()..style = PaintingStyle.fill;
+    paint26Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_26, paint26Fill);
 
     Path path_27 = Path();
     path_27.moveTo(size.width * 0.4037674, size.height * 0.3222892);
@@ -1335,9 +1335,9 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.3222892);
     path_27.close();
 
-    Paint paint_27_fill = Paint()..style = PaintingStyle.fill;
-    paint_27_fill.color = Colors.white.withOpacity(1.0);
-    canvas.drawPath(path_27, paint_27_fill);
+    Paint paint27Fill = Paint()..style = PaintingStyle.fill;
+    paint27Fill.color = Colors.white.withOpacity(1.0);
+    canvas.drawPath(path_27, paint27Fill);
 
     Path path_28 = Path();
     path_28.moveTo(size.width * 0.9029496, size.height * 0.9314137);
@@ -1427,13 +1427,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.9314137);
     path_28.close();
 
-    Paint paint_28_fill = Paint()..style = PaintingStyle.fill;
-    paint_28_fill.shader = ui.Gradient.linear(
+    Paint paint28Fill = Paint()..style = PaintingStyle.fill;
+    paint28Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.8643411, size.height * 0.8514056),
         Offset(size.width * 0.9267907, size.height * 0.8927671),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_28, paint_28_fill);
+    canvas.drawPath(path_28, paint28Fill);
 
     Path path_29 = Path();
     path_29.moveTo(size.width * 0.9323876, size.height * 0.3288711);
@@ -1523,8 +1523,8 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.3288711);
     path_29.close();
 
-    Paint paint_29_fill = Paint()..style = PaintingStyle.fill;
-    paint_29_fill.shader = ui.Gradient.linear(
+    Paint paint29Fill = Paint()..style = PaintingStyle.fill;
+    paint29Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.9052558, size.height * 0.2726462),
         Offset(size.width * 0.9491395, size.height * 0.3017120), [
       Color(0xff57B6E5).withOpacity(0.28),
@@ -1533,7 +1533,7 @@ class RPSCustomPainterTrophy extends CustomPainter {
       0,
       1
     ]);
-    canvas.drawPath(path_29, paint_29_fill);
+    canvas.drawPath(path_29, paint29Fill);
 
     Path path_30 = Path();
     path_30.moveTo(size.width * 0.3527132, size.height * 0.08433735);
@@ -1623,8 +1623,8 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.08433735);
     path_30.close();
 
-    Paint paint_30_fill = Paint()..style = PaintingStyle.fill;
-    paint_30_fill.shader = ui.Gradient.linear(
+    Paint paint30Fill = Paint()..style = PaintingStyle.fill;
+    paint30Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.3255814, size.height * 0.02811245),
         Offset(size.width * 0.3694674, size.height * 0.05717871), [
       Color(0xff57B6E5).withOpacity(0.28),
@@ -1633,7 +1633,7 @@ class RPSCustomPainterTrophy extends CustomPainter {
       0,
       1
     ]);
-    canvas.drawPath(path_30, paint_30_fill);
+    canvas.drawPath(path_30, paint30Fill);
 
     Path path_31 = Path();
     path_31.moveTo(size.width * 0.9711473, size.height * 0.7666225);
@@ -1723,8 +1723,8 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.7666225);
     path_31.close();
 
-    Paint paint_31_fill = Paint()..style = PaintingStyle.fill;
-    paint_31_fill.shader = ui.Gradient.linear(
+    Paint paint31Fill = Paint()..style = PaintingStyle.fill;
+    paint31Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.9440155, size.height * 0.7103976),
         Offset(size.width * 0.9878992, size.height * 0.7394618), [
       Color(0xff57B6E5).withOpacity(0.28),
@@ -1733,7 +1733,7 @@ class RPSCustomPainterTrophy extends CustomPainter {
       0,
       1
     ]);
-    canvas.drawPath(path_31, paint_31_fill);
+    canvas.drawPath(path_31, paint31Fill);
 
     Path path_32 = Path();
     path_32.moveTo(size.width * 0.8275853, size.height * 0.1920112);
@@ -1823,13 +1823,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.1920112);
     path_32.close();
 
-    Paint paint_32_fill = Paint()..style = PaintingStyle.fill;
-    paint_32_fill.shader = ui.Gradient.linear(
+    Paint paint32Fill = Paint()..style = PaintingStyle.fill;
+    paint32Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.7889767, size.height * 0.1120036),
         Offset(size.width * 0.8514264, size.height * 0.1533643),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_32, paint_32_fill);
+    canvas.drawPath(path_32, paint32Fill);
 
     Path path_33 = Path();
     path_33.moveTo(size.width * 0.1432593, size.height * 0.08000763);
@@ -1914,13 +1914,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.08000763);
     path_33.close();
 
-    Paint paint_33_fill = Paint()..style = PaintingStyle.fill;
-    paint_33_fill.shader = ui.Gradient.linear(
+    Paint paint33Fill = Paint()..style = PaintingStyle.fill;
+    paint33Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.1046512, 0),
         Offset(size.width * 0.1671008, size.height * 0.04136064),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_33, paint_33_fill);
+    canvas.drawPath(path_33, paint33Fill);
 
     Path path_34 = Path();
     path_34.moveTo(size.width * 0.07579729, size.height * 0.3569835);
@@ -2010,8 +2010,8 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.3569835);
     path_34.close();
 
-    Paint paint_34_fill = Paint()..style = PaintingStyle.fill;
-    paint_34_fill.shader = ui.Gradient.linear(
+    Paint paint34Fill = Paint()..style = PaintingStyle.fill;
+    paint34Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.04866550, size.height * 0.3007586),
         Offset(size.width * 0.09255155, size.height * 0.3298245), [
       Color(0xff57B6E5).withOpacity(0.28),
@@ -2020,7 +2020,7 @@ class RPSCustomPainterTrophy extends CustomPainter {
       0,
       1
     ]);
-    canvas.drawPath(path_34, paint_34_fill);
+    canvas.drawPath(path_34, paint34Fill);
 
     Path path_35 = Path();
     path_35.moveTo(size.width * 0.04076202, size.height * 0.8104859);
@@ -2110,13 +2110,13 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.8104859);
     path_35.close();
 
-    Paint paint_35_fill = Paint()..style = PaintingStyle.fill;
-    paint_35_fill.shader = ui.Gradient.linear(
+    Paint paint35Fill = Paint()..style = PaintingStyle.fill;
+    paint35Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.2153736, size.height * 0.7304779),
         Offset(size.width * 0.06460349, size.height * 0.7718394),
         [Color(0xff57B6E5).withOpacity(1), Color(0xff8257E5).withOpacity(1)],
         [0, 1]);
-    canvas.drawPath(path_35, paint_35_fill);
+    canvas.drawPath(path_35, paint35Fill);
 
     Path path_36 = Path();
     path_36.moveTo(size.width * 0.1106810, size.height * 0.9593936);
@@ -2206,8 +2206,8 @@ class RPSCustomPainterTrophy extends CustomPainter {
         size.height * 0.9593936);
     path_36.close();
 
-    Paint paint_36_fill = Paint()..style = PaintingStyle.fill;
-    paint_36_fill.shader = ui.Gradient.linear(
+    Paint paint36Fill = Paint()..style = PaintingStyle.fill;
+    paint36Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.08354922, size.height * 0.9031687),
         Offset(size.width * 0.1274353, size.height * 0.9322329), [
       Color(0xff57B6E5).withOpacity(0.28),
@@ -2216,7 +2216,7 @@ class RPSCustomPainterTrophy extends CustomPainter {
       0,
       1
     ]);
-    canvas.drawPath(path_36, paint_36_fill);
+    canvas.drawPath(path_36, paint36Fill);
   }
 
   @override
